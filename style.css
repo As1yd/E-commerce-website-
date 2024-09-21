@@ -1,0 +1,516 @@
+*{
+  padding:0;
+  margin :0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* header start*/
+
+.head{
+  background-color:#288EB9;
+  text-align: center;
+  
+}
+.logo {
+  padding-top: 10px;
+  
+}
+.logo1{
+ height: 80px; 
+ width: 80px;
+  border:2px solid black;
+  border-radius: 50%;
+}
+
+.menu{
+  display: block;
+  
+}
+.menu ul{
+  padding-bottom:10px;
+  
+}
+.menu ul li {
+  display: inline-block;
+
+  width:80%;
+  text-align: center;
+  border-radius: 100px;
+  transition:0.7s ;
+  
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+  
+ 
+}
+
+.menu ul li:hover{
+  background-color: black;
+ opacity: 0.5;
+ 
+}
+
+/* header  end*/
+/* banner  start*/
+
+
+.section {
+  background-image: url("/image /david-villasana-el5lPElpjpI-unsplash.jpg");
+  height:300px;
+  width:100%;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat; 
+  
+}
+
+
+.section-div {
+  
+  text-align: center;
+  
+  
+}
+
+.section-div h1{
+  padding-top: 50px;
+  font-size: 2.5rem;
+}
+
+.section-div p {
+  padding-top: 20px;
+  padding-bottom:10px;
+  font-size: 1.5rem;
+  color: yellow;
+  
+}
+ 
+ .btn{
+  font-size: 1.3rem;
+  background-color: green;
+  color :white;
+transition: .6s;
+border:none;
+ }
+
+ .btn:hover{
+  transform: scale(1.2)
+
+ }
+
+/* banner  end*/
+/* About  section start*/
+#about us{
+  
+}
+.about-container {
+  text-align:center;
+  padding-top: 20px;
+}
+
+.about-container h3{
+  font-size: 30px;
+}
+.about-container p{
+  line-height: 27px;
+}
+
+
+
+/* About  section end*/
+/*  food section start*/
+.item-container{
+margin-top:20px;
+  text-align: center;
+ 
+  
+}
+.food-img1container{
+display: block;
+transition: 1s;
+}
+
+
+
+.food-img1{
+ 
+  width:93%;
+  height:94%;
+}
+
+.item-des {
+  margin-top: -2px;
+  display: inline-block;
+  background-color: #878F8A;
+  width:93%;
+  
+}
+.item-container {
+  transition: 1s;
+  
+}
+
+.item-container:hover {
+  transform: scale(1.05);
+  
+}
+
+
+
+
+
+/*  food section end*/
+/* contact section start*/
+
+.contact-us {
+  padding: 15px;
+  text-align: center;
+  
+}
+
+
+.map{
+  width: 93%;
+  height:450px;
+}
+
+.contact-address   {
+  background-color: darkgray;
+  padding: 4% 8%;
+}
+
+.contact-us  h4{
+  font-size: 30px;
+}
+
+.contact-us h5 {
+  font-size: 20px;
+}
+
+
+
+
+/* contact section end*/
+
+/* footer section start*/
+
+.last-section{
+ background-color: #42445A;
+ height : 120px;
+ width : 100%;
+ text-align: center;
+}
+
+.creadit  {
+  color: white;
+  padding-top:8px;
+  font-size: 20px;
+  
+}
+.social-contact{
+  
+}
+.ixon{
+  color:white;
+}
+
+.icon{
+  color:white;
+margin: 5%;
+  
+}
+
+
+/* footer section end*/
+ /* for destop */
+ 
+   @media screen and (min-width:700px){
+ 
+
+
+
+.col1{
+  width :8.33%;
+}
+.col2{
+  width :16.66%;
+}
+.col3{
+  width :24.99%;
+}
+.col4{
+  width :33.52%;
+}
+.col5{
+  width :41.65%;
+}
+.col6{
+  width :49.98%;
+}
+.col7{
+  width :58.31%;
+}
+.col8{
+  width :66.64%;
+}
+.col9{
+  width :74.97%;
+}
+.col10{
+  width :83.33%;
+}
+.col11{
+  width :91.63%;
+}
+.col12{
+  width :100%;
+}
+
+
+
+/* for head section  */
+
+.head{
+display: flex ;
+}
+
+.logo {
+  padding: 5%;
+  
+}
+.logo1 {
+  
+  float:left;
+ height: 230px;
+ width: 230px;
+}
+
+.menu {
+  
+  display: inline-block;
+  position : relative;
+  
+}
+ .menu ul{
+   display : flex;
+   position: absolute;
+  
+  
+ }
+ .menu ul li {
+   float :left;
+   padding-top: 30%;
+  font-size: 30px;
+   
+   
+ }
+
+ .menu ul li {
+   padding-left: 30px;
+   
+ }
+ 
+ 
+ 
+ 
+ .menu ul li {
+  display: inline-block;
+
+  width:80%;
+  text-align: center;
+  border-radius: 100px;
+  transition:0.7s ;
+  
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+  
+ 
+}
+
+.menu ul li:hover{
+  background-color: transparent;
+  text-decoration: underline;
+ 
+  
+ 
+ 
+ 
+}
+
+ 
+ 
+ 
+ 
+ 
+ /* banner start */
+ 
+ 
+ .section {
+  background-image: url("/image /david-villasana-el5lPElpjpI-unsplash.jpg");
+  height:600px;
+  width:100%;
+  
+  
+}
+
+
+
+
+
+.section-div h1{
+  padding-top: 170px;
+  font-size:5rem;
+}
+
+.section-div p {
+  padding-top: 20px;
+  padding-bottom:10px;
+  font-size: 3rem;
+  color: black;
+  
+}
+ 
+ .btn{
+   margin-top: 40px;
+  font-size: 3.3rem;
+  
+ }
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+/* banner end*/
+
+/* about satrt*/
+
+
+
+.about-container {
+  text-align:center;
+  padding-top: 40px;
+  height : 200px;
+}
+
+.about-container h3{
+  font-size: 50px;
+}
+.about-container p{
+  line-height: 40px;
+  font-size: 30px;
+}
+
+
+
+/* about end*/
+
+/* food section start*/
+
+.food-container{
+  display: flex;
+}
+ .col4{
+   float : left;
+   
+ }
+
+
+.food-img2{
+  height: 457px;
+}
+
+
+/* contact section start*/
+
+.contact-us {
+  padding: 15px;
+  text-align: center;
+  
+}
+
+
+.map{
+  width: 93%;
+  height:450px;
+}
+
+.contact-address   {
+  background-color: darkgray;
+  padding: 4% 8%;
+}
+
+.contact-us  h4{
+  font-size: 50px;
+}
+
+.contact-us h5 {
+  font-size: 30px;
+}
+
+
+
+
+/* contact section end*/
+
+/* footer section start*/
+
+.last-section{
+ background-color: #42445A;
+ height : 250px;
+ width : 100%;
+ text-align: center;
+}
+
+.creadit  {
+  color: white;
+  padding-top:12px;
+  font-size: 40px;
+  
+}
+
+
+
+.social-contact{
+  
+}
+.ixon{
+  color:white;
+}
+
+.icon{
+  color:white;
+margin: 5%;
+ 
+}
+.icon {
+  
+  font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+  
